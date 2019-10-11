@@ -33,7 +33,7 @@ public class ClassRoomExample
     static void printStudents()
     {
         clearConsole();
-        classRoom.printAll();
+        classRoom.printAll(true);
         waitForInput();
     }
 
@@ -46,7 +46,6 @@ public class ClassRoomExample
         System.out.println("L -  Update Last Name");
         System.out.println("A -  Add Grade");
         System.out.println("B -  Update Birthdate");
-        System.out.println("ESC -  Exit");
     }
 
     static void updateStudent()
@@ -96,7 +95,7 @@ public class ClassRoomExample
         System.out.println("A -  Add Student");
         System.out.println("D -  Delete Student");
         System.out.println("P -  Print All Students");
-        System.out.println("ESC -  Exit");
+        System.out.println("X -  Exit");
     }
 
     static void deleteStudent()
